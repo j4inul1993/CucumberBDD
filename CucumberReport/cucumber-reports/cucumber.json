@@ -1,0 +1,138 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2881767024,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.applicationStart()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User login with valid username \u0026 verify the page title",
+        "description": "",
+        "id": "user-able-to-login-with-valid-username-\u0026-password;user-login-with-valid-username-\u0026-verify-the-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 209785535,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146072002,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can open any browser",
+            "match": {
+              "location": "LoginStepDef.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1530995206,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User able to enter \"https://www.zoopla.co.uk/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.zoopla.co.uk/",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginStepDef.user_able_to_enter_url(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1653779258,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User able to click on the login button",
+            "match": {
+              "location": "LoginStepDef.user_able_to_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 342869798,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter the userName \"alammohammed79@gmail.com\" and password \"SAYEDawan2008@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alammohammed79@gmail.com",
+                  "offset": 25
+                },
+                {
+                  "val": "SAYEDawan2008@",
+                  "offset": 65
+                }
+              ],
+              "location": "LoginStepDef.user_enter_the_userName_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21172989,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on the signing button",
+            "match": {
+              "location": "LoginStepDef.user_click_on_the_signing_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2559424923,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User able to verify successfully login \u0026 verify the homepage title",
+            "match": {
+              "location": "LoginStepDef.user_able_to_verify_successfully_login_verify_the_homepage_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User able to login with valid username \u0026 password",
+    "description": "\nDescription: \"User login zoopla website \u0026 search the property \u0026\"\n      \"select  the  property as well as verify the property price.\"",
+    "id": "user-able-to-login-with-valid-username-\u0026-password",
+    "keyword": "Feature",
+    "uri": "loginFunction.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@sanity"
+      }
+    ]
+  }
+]
